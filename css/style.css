@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@300&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #fffdfd;
+
+}
+
+body {
+    background-image: url(../multimedia/cancha\ de\ puchibol.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin: 0;
+    color: #000000;
+    height: 100%;
+}
+
+.brsopacity{
+    background: #5d4037;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);;
+}
+html {
+    margin-bottom: 0px;
+    height: 100%; }
+.opacity {
+    background-color: #0000007c;
+    
+}
+
+.fondoNegro {
+    background-color: #000000;
+}
+/* HEADER CONTENDIDO */
+
+.header {
+   /*
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 30px 10%;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    */
+
+        background: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        padding: 20px 10%;
+        
+}
+
+.navbar-toggler-2 {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out; 
+}
+
+.colorFuente {
+    -webkit-text-fill-color: #ffffff;
+}
+li a {
+    -webkit-text-fill-color: #ffffff;
+    
+
+}
+
+
+.header .nav-links {
+     /*
+    list-style: none;
+ */
+ 
+}
+
+.header .nav-links li {
+     /*
+    display: inline-block;
+    padding: 0 20px;
+    */
+}
+
+
+.header .nav-links a {
+    /*
+    -webkit-text-fill-color: #ffffff;
+    font-size: 30px;
+    color: #fffdfd;
+    text-decoration: none;
+    padding: 20px;
+*/
+}
+
+.header .nav-links li a:hover{
+/*
+    color: #bb2727;
+    */
+}
+
+.header .logo {
+    cursor: pointer;
+
+
+
+}
+
+.header .logo img {
+    height: 75px;
+    width: auto;
+    margin-top: 8px;
+    transform: all 0, 3;
+
+}
+
+.header .logo img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* MAIN CONTENIDO */
+
+.contenedor {
+    background-color: #03134900;
+    
+   
+    text-align: center;
+   
+
+}
+
+.contenedor img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+
+}
+
+.contenedor h1 {
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+
+
+.card-body {
+    text-align: center;
+}
+
+.contenedor-box {
+    text-align: center;
+    justify-content: center;
+   padding-top: 30px;
+
+}
+.objet-fit{
+    object-fit: cover;
+  }
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden; }
+
+.text-align{ 
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    padding: auto;
+    text-align: center;
+    margin-bottom: 0px;
+    background: #5d4037;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.47901) 0%, black 100%);
+}
